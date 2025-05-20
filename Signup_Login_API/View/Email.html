@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Our Service</title>
+    <style type="text/css">
+        /* Base styles */
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            color: #333333;
+            background-color: #f7f7f7;
+        }
+        
+        /* Container */
+        .email-container {
+            max-width: 600px;
+            margin: 0 auto;
+            background: #ffffff;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Header */
+        .email-header {
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            padding: 30px 20px;
+            text-align: center;
+            color: white;
+        }
+        
+        .email-header h1 {
+            margin: 0;
+            font-size: 28px;
+            font-weight: 700;
+        }
+        
+        /* Content */
+        .email-content {
+            padding: 30px;
+        }
+        
+        .welcome-message {
+            margin-bottom: 25px;
+        }
+        
+        .welcome-message h2 {
+            color: #4a4a4a;
+            margin-top: 0;
+        }
+        
+        /* OTP Box */
+        .otp-box {
+            background: #f5f9ff;
+            border: 1px dashed #6e8efb;
+            border-radius: 6px;
+            padding: 20px;
+            text-align: center;
+            margin: 25px 0;
+        }
+        
+        .otp-code {
+            font-size: 32px;
+            font-weight: 700;
+            letter-spacing: 3px;
+            color: #a777e3;
+            margin: 15px 0;
+            padding: 10px 20px;
+            background: white;
+            display: inline-block;
+            border-radius: 4px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+        
+        /* Footer */
+        .email-footer {
+            background: #f9f9f9;
+            padding: 20px;
+            text-align: center;
+            font-size: 12px;
+            color: #999999;
+        }
+        
+        .social-links {
+            margin: 15px 0;
+        }
+        
+        .social-links a {
+            margin: 0 10px;
+            text-decoration: none;
+        }
+        
+        /* Button */
+        .btn {
+            display: inline-block;
+            padding: 12px 24px;
+            background: linear-gradient(135deg, #6e8efb, #a777e3);
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: 600;
+            margin: 15px 0;
+        }
+        
+        /* Responsive */
+        @media screen and (max-width: 480px) {
+            .email-content {
+                padding: 20px;
+            }
+            
+            .email-header h1 {
+                font-size: 24px;
+            }
+            
+            .otp-code {
+                font-size: 24px;
+                padding: 8px 16px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="email-container">
+        <!-- Header -->
+        <div class="email-header">
+            <h1>Welcome to NexaService!</h1>
+            <p>Your account is ready to use</p>
+        </div>
+        
+        <!-- Content -->
+        <div class="email-content">
+            <div class="welcome-message">
+                <h2>Hello [User's Name],</h2>
+                <p>Thank you for joining NexaService! We're excited to have you on board.</p>
+                <p>To complete your account verification, please use the One-Time Password (OTP) below:</p>
+            </div>
+            
+            <div class="otp-box">
+                <p>Your verification code is:</p>
+                <div class="otp-code">8 4 3 9 2 1</div>
+                <p>This code will expire in 10 minutes.</p>
+                <p>If you didn't request this, please ignore this email.</p>
+            </div>
+            
+            <p>For security reasons, please do not share this OTP with anyone.</p>
+            
+            <p>If you have any questions, feel free to <a href="mailto:support@nexaservice.com">contact our support team</a>.</p>
+            
+            <p>Welcome aboard,<br>
+            <strong>The NexaService Team</strong></p>
+            
+            <center>
+                <a href="https://nexaservice.com/get-started" class="btn">Get Started</a>
+            </center>
+        </div>
+        
+        <!-- Footer -->
+        <div class="email-footer">
+            <div class="social-links">
+                <a href="https://facebook.com/nexaservice">Facebook</a>
+                <a href="https://twitter.com/nexaservice">Twitter</a>
+                <a href="https://linkedin.com/company/nexaservice">LinkedIn</a>
+                <a href="https://instagram.com/nexaservice">Instagram</a>
+            </div>
+            <p>&copy; 2023 NexaService. All rights reserved.</p>
+            <p>123 Business Ave, Suite 100, San Francisco, CA 94107</p>
+            <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a></p>
+        </div>
+    </div>
+</body>
+</html>
